@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Notebook</string>
     <string name="save">Сохранить</string>
+    <string name="exit">Выход</string>
+    <string name="notebook">Записная книжка</string>
 </resources>
