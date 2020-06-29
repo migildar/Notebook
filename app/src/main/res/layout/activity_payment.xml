@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/inputMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/deposit_money"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/inputInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/payment_information" />
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok" />
+    <CheckBox
+        android:id="@+id/bankCardChkBx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bank_card"/>
+    <CheckBox
+        android:id="@+id/mobilePhoneChkBx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mobile_phone"/>
+    <CheckBox
+        android:id="@+id/cashAddressChkBx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cash_at"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

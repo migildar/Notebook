@@ -3,7 +3,7 @@
 
     <item
         android:id="@+id/action_settings"
-        android:orderInCategory="100"
+        android:orderInCategory="150"
         android:title="Settings"
         />
 
@@ -17,6 +17,12 @@
         android:id="@+id/exit"
         android:orderInCategory="100"
         android:title="@string/exit"
+        />
+
+    <item
+        android:id="@+id/action_open_payment"
+        android:orderInCategory="50"
+        android:title="@string/payment"
         />
 
 </menu>

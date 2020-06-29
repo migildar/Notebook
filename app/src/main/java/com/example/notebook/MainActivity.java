@@ -28,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
         } else if (id == R.id.exit) {
             finish();
             return true;
+        } else if (id == R.id.action_open_payment) {
+            Intent intentPayment = new Intent(MainActivity.this, PaymentActivity.class);
+            startActivity(intentPayment);
         }
 
         return super.onOptionsItemSelected(item);
